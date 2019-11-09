@@ -3,8 +3,7 @@ import React from 'react';
 
 import Nav from './nav';
 
-let currIndex = null;
-let nextIndex = 0;
+
 const DEFAULT_NAV_WIDTH = 100;
 
 const Navs = ({ items, offset, duration, delay, coverWidth, navWidth, linkClass, activeLinkClass }) => {
@@ -16,15 +15,17 @@ const Navs = ({ items, offset, duration, delay, coverWidth, navWidth, linkClass,
         overflow: "hidden",
         WebkitMaskBoxImage: "-webkit-linear-gradient(white 100%)",
         display: "flex",
+        backgroundImage:"linear-gradient(to right,#000222, rgba(23, 20, 61, 0.96),  #252529)",
     };
     const navsStyle = {
         margin: 0,
-        left: coverWidth / 2 - 30,
+        left: coverWidth /2  - 50,
         paddingLeft: 0,
         position: "relative",
         height: "100%",
         display: "flex",
-        listStyle: "none"
+        listStyle: "none",
+
     };
 
     var navsNode = React.createRef();

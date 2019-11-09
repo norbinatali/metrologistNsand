@@ -5,7 +5,6 @@ import Navs from './navs';
 import ElementsWrapper from './elements-wrapped';
 
 import '../style/nav.css';
-import {Form} from "antd";
 
 
 const Navbar = ({
@@ -18,7 +17,7 @@ const Navbar = ({
         left: 0,
         top: 0,
         width: "100%",
-        backgroundColor: backgroundColor ? backgroundColor : "#000222",
+        backgroundColor: backgroundColor ? backgroundColor: "rgba(0,1,47,0.84)",
         display: "flex",
         justifyContent: "center",
 

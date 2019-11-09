@@ -14,11 +14,12 @@
 .link:hover {
     color: white;
     text-decoration: unset;
-    background-color: #616161;
+    background-color: transparent;
 }
 
 .active_link {
-    background-color: #616161;
+    background-color: rgba(37, 56, 89, 0.82);
+;
 }
 
 .item {

@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-scroll';
-import Select from 'react-select';
+
 const Nav = ({ index, item, offset, duration, delay, moveNavs, width, linkClass, activeLinkClass }) => {
     const liStyle = {
-        width: 115,
-        height: "100%"
+        width: 130,
+        height: "100%",
+
     };
     return (
         <li style={liStyle}>
